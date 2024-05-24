@@ -1,48 +1,6 @@
-#home{
-    background: #ffc107;
-    color: white;
-}
-
-.caixa {
-    padding: 60px 0;
-    border-bottom: 1px solid #e5e5e5;
-}
-
-footer p a{
-    margin: 5px 15px;
-}
-
-/* Estilos gerais */
-body {
-    font-family: 'Open Sans', sans-serif;
-    background-color: #f7f7f7;
-    margin: 0;
-    padding: 0;
-}
-
-h2 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 24px;
-    margin-bottom: 20px;
-}
-
-p {
-    font-family: 'Open Sans', sans-serif;
-}
-
-a {
-    color: #ffc107;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-a:hover {
-    color: #e0a800;
-}
-
-/* Estilos das seções de login e registro */
 .login-section, .register-section {
     padding: 60px 0;
+    background: #f7f7f7;
 }
 
 .card {
@@ -57,6 +15,12 @@ a:hover {
     border-bottom: none;
     border-radius: 8px 8px 0 0;
     padding: 15px 0;
+}
+
+.card-header h2 {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
 }
 
 .card-body {
@@ -89,6 +53,8 @@ a:hover {
 
 .text-center a {
     color: #ffc107;
+    text-decoration: none;
+    transition: color 0.3s ease;
 }
 
 .text-center a:hover {
