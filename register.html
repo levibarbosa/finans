@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Finans - Cadastro">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Finans - Cadastro</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="navbar-brand">
+                    <img src="img/logo.png" width="142" alt="Logo do Finans">
+                </a>
+                <a href="index.html" class="btn btn-outline">Voltar</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="register" style="min-height: 100vh; display: flex; align-items: center; justify-content: center;">
+        <div class="container">
+            <div class="row justify-center">
+                <div class="auth-container">
+                    <div class="card">
+                        <div class="text-center mb-4">
+                            <h2>Cadastre-se</h2>
+                            <p>Comece a controlar suas finanças hoje!</p>
+                        </div>
+                        <form action="/register" method="post">
+                            <div class="form-group">
+                                <label for="name" style="display: block; margin-bottom: 0.5rem;">Nome:</label>
+                                <input type="text" class="form-control" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email" style="display: block; margin-bottom: 0.5rem;">Email:</label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                            </div>
+                            <div class="form-group" style="margin-bottom: 2rem;">
+                                <label for="password" style="display: block; margin-bottom: 0.5rem;">Senha:</label>
+                                <input type="password" class="form-control" id="password" name="password" required>
+                            </div>
+                            <button type="submit" class="btn btn-primary" style="width: 100%;">Cadastrar</button>
+                        </form>
+                        <p class="mt-4 text-center">Já tem uma conta? <a href="login.html"
+                                style="color: var(--secondary);">Faça login</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
