@@ -1,6 +1,6 @@
 # Finans - Finanças Pessoais
 
-![Finans Preview](img/capa-mulher.png)
+![Finans Preview](img/captura.png)
 
 ## 🚀 Sobre o Projeto
 
